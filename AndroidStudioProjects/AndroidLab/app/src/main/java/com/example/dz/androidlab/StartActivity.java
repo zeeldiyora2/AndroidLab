@@ -8,25 +8,31 @@ import android.view.View;
 import android.widget.Button;
 
 public class StartActivity extends Activity {
-
     protected static final String ACTIVITY_NAME = "StartActivity";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_start);
         Log.i(ACTIVITY_NAME,"In OnCreate()");
+
         Button startbtn = (Button) findViewById(R.id.helloBtn);
         startbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(StartActivity.this,ListItemsActivity.class);
-                startActivity(intent);
                 startActivityForResult(intent,50);
             }
         });
+
+        Button chatBtn = (Button) findViewById(R.id.startchatbtn);
+        chatBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent2 = new Intent(StartActivity.this,ChatWindow.class);
+                startActivityForResult(intent2,50);
+            }
+        });
+
     }
 
     protected void onActivityResult(int requestCode, int responseCode){

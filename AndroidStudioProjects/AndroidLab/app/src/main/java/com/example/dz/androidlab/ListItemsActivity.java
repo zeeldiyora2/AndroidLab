@@ -16,13 +16,11 @@ import android.widget.Switch;
 import android.widget.Toast;
 
 public class ListItemsActivity extends Activity {
-
     protected static final String ACTIVITY_NAME = "ListItemsActivity";
 
     private CheckBox chkBox  ;
     private ImageButton imgbutton;
-    static final int REQUEST_IMAGE_CAPTURE = 1;
-
+    static final int REQUEST_IMAGE_CAPTURE = 50;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,7 +56,6 @@ public class ListItemsActivity extends Activity {
             }});
 
         imgbutton.setOnClickListener(new View.OnClickListener() {
-            static final int REQUEST_IMAGE_CAPTURE = 1;
             @Override
             public void onClick(View view) {
                 Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">લેબ 3</string>
+    <string name="app_name">લેબ 4</string>
     <string name="hello_messages">હેલો વર્લ્ડ</string>
     <string name="ButtonText">હું એક બટન છું</string>
 
@@ -18,5 +18,8 @@
     <string name ="yes">હા</string>
     <string name="no">ના</string>
     <string name="response">અહીં મારો પ્રતિભાવ છે</string>
+
+    <string name="start">ચેટ પ્રારંભ કરો</string>
+    <string name="send">મોકલો</string>
 
 </resources>

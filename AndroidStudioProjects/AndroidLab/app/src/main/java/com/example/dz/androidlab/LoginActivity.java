@@ -18,6 +18,7 @@ public class LoginActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+
         Button loginButton = findViewById(R.id.LoginButton);
         final EditText editText = (EditText)findViewById(R.id.textName) ;
         final EditText editText1 = (EditText)findViewById(R.id.txtpass) ;
