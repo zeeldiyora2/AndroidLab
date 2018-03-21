@@ -22,7 +22,7 @@ public class ChatWindow extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chat_window);
+        setContentView(R.layout.activity_chat_window)   ;
 
         ListView list = (ListView) findViewById(R.id.chatView);
         final EditText edit = (EditText) findViewById(R.id.txtChat);
@@ -42,7 +42,7 @@ public class ChatWindow extends Activity {
 
     }
 
-    private class ChatAdapter extends ArrayAdapter<String> {
+    private class ChatAdapter extends ArrayAdapter<String>{
 
         public ChatAdapter(Context ctx) {
             super(ctx, 0);
