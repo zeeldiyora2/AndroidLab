@@ -40,5 +40,12 @@
         android:layout_height="wrap_content"
         android:src="@drawable/flag" />
 
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login" />
+
+
 
 </LinearLayout>

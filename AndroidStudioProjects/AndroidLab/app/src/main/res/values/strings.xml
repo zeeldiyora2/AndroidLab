@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lab 1</string>
+    <string name="app_name">Lab 3</string>
     <string name="hello_messages">Hello World</string>
     <string name="ButtonText">I\'m a button</string>
 
@@ -11,5 +11,11 @@
     <string name="radio">RadioButton</string>
     <string name="check">CheckBox</string>
     <string name="what">What does this do</string>
+
+    <string name="dialog_title">Hello</string>
+    <string name="dialog_message">Do you want to exit?</string>
+    <string name ="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="response">Here is my Response</string>
 
 </resources>
