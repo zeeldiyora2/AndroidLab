@@ -3,4 +3,15 @@
     <string name="app_name">લેબ 1</string>
     <string name="hello_messages">હેલો વર્લ્ડ</string>
     <string name="ButtonText">હું એક બટન છું</string>
+
+    <string name="login">લૉગિન</string>
+    <string name="loginname">લૉગિન નામ</string>
+    <string name="pass">પાસવર્ડ</string>
+    <string name="password">પાસવર્ડ</string>
+
+    <string name="radio">રેડીયો બટન</string>
+    <string name="check">ચેકબોક્સ</string>
+    <string name="what">આ શું કરે છે?</string>
+
+
 </resources>
