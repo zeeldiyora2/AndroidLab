@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lab 4</string>
+    <string name="app_name">Lab 6</string>
     <string name="hello_messages">Hello World</string>
     <string name="ButtonText">I\'m a button</string>
 
@@ -20,5 +20,11 @@
 
     <string name="start">Start Chat</string>
     <string name="send">Send</string>
+
+    <string name="weather">Weather Forecast</string>
+    <string name="currentTemperature">Current Temperature</string>
+    <string name="maxTemperature">Max Temperature</string>
+    <string name="minTemperature">Min Temperature</string>
+    <string name="windSpeed">Wind Speed</string>
 
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">લેબ 4</string>
+    <string name="app_name">લેબ 6</string>
     <string name="hello_messages">હેલો વર્લ્ડ</string>
     <string name="ButtonText">હું એક બટન છું</string>
 
@@ -21,5 +21,11 @@
 
     <string name="start">ચેટ પ્રારંભ કરો</string>
     <string name="send">મોકલો</string>
+
+    <string name="weather">હવામાન આગાહી</string>
+    <string name="currentTemperature">વર્તમાન તાપમાન</string>
+    <string name="maxTemperature">મહત્તમ તાપમાન</string>
+    <string name="minTemperature">લઘુત્તમ તાપમાન</string>
+    <string name="windSpeed">પવનની ઝડપ</string>
 
 </resources>
