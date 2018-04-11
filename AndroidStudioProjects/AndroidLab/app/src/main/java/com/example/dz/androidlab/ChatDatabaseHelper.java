@@ -1,6 +1,7 @@
 package com.example.dz.androidlab;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
@@ -36,5 +37,17 @@ public class ChatDatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_MESSAGE );
         onCreate(db);
         Log.i("ChatDatabaseHelper", "Calling onUpgrade, oldVersion=" + oldVer + " newVersion=" + newVer);
+    }
+
+    @Override
+    public void onDowngrade(SQLiteDatabase db, int oldVer, int newVer) {
+        super.onDowngrade(db, oldVer, newVer);
+    }
+
+
+    //get database by select statement, return the cusor
+    public Cursor getData(String query){
+        SQLiteDatabase db = getReadableDatabase();
+        return db.rawQuery(query,null);
     }
 }

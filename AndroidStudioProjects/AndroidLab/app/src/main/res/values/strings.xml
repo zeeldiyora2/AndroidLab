@@ -27,4 +27,8 @@
     <string name="minTemperature">Min Temperature</string>
     <string name="windSpeed">Wind Speed</string>
 
+    <string name="messageHere">Message Here</string>
+    <string name="id">ID=</string>
+    <string name="delete">Delete This Message</string>
+
 </resources>

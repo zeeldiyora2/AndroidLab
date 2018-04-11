@@ -28,4 +28,10 @@
     <string name="minTemperature">લઘુત્તમ તાપમાન</string>
     <string name="windSpeed">પવનની ઝડપ</string>
 
+    <string name="messageHere">સંદેશ અહીં</string>
+    <string name="id">ID=</string>
+    <string name="delete">આ સંદેશ કાઢી નાખો</string>
+
+
+
 </resources>
