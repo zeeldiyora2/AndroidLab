@@ -32,6 +32,11 @@
     <string name="id">ID=</string>
     <string name="delete">આ સંદેશ કાઢી નાખો</string>
 
+    <string name="title_activity_test_toolbar">ટેસ્ટ ટૂલબાર</string>
+    <string name="about">વિશે</string>
+    <string name="comment">ટિપ્પણી કરો</string>
+
+
 
 
 </resources>

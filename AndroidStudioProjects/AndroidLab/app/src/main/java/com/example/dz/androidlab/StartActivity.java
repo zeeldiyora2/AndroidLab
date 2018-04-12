@@ -42,6 +42,15 @@ public class StartActivity extends Activity {
             }
         });
 
+        Button toolbarBtn = (Button) findViewById(R.id.testToolbarBtn);
+        toolbarBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent4 = new Intent(StartActivity.this,TestToolbar.class);
+                startActivityForResult(intent4,50);
+            }
+        });
+
     }
 
     protected void onActivityResult(int requestCode, int responseCode){

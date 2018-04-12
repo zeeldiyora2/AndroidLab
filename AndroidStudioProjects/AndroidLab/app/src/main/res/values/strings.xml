@@ -31,4 +31,10 @@
     <string name="id">ID=</string>
     <string name="delete">Delete This Message</string>
 
+    <string name="title_activity_test_toolbar">Test Toolbar</string>
+    <string name="about">About</string>
+    <string name="comment">Comment</string>
+    <string name="ok">OK</string>
+    <string name="back">Back</string>
+
 </resources>
